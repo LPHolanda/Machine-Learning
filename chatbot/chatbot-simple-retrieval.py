@@ -90,7 +90,7 @@ while(flag==True):
     if(user_response!='tchau'):
         if(user_response=='obrigado' or user_response=='valeu' ):
             flag=False
-            print("GALVÃO: A gende se vê por aqui..")
+            print("GALVÃO: A gente se vê por aqui..")
         else:
             if(greeting(user_response)!=None):
                 print("GALVÃO: "+greeting(user_response))
